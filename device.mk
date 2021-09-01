@@ -172,6 +172,10 @@ PRODUCT_PACKAGES += \
     vendor.oneplus.camera.CameraHIDL@1.0.vendor \
     vendor.qti.hardware.camera.device@1.0.vendor
 
+# Charge control
+PRODUCT_PACKAGES += \
+    vendor.kscope.chgctrl@1.0-service.oneplus7pro
+
 # Init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
